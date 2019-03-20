@@ -1,8 +1,9 @@
 #include <iostream>
-#include "array1_2.h"
+#include "Tree1_1.h"
+
 int main() {
+    Tree1_1 tree1_1;
+    tree1_1.test();
     std::cout << "Hello, World!" << std::endl;
-    array1_2 a;
-    a.test();
     return 0;
 }
